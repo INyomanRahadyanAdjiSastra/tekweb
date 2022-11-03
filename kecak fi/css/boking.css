@@ -1,0 +1,11 @@
+<?php
+echo "<center>";
+echo "<font size=8>";
+echo "<b>Penjualan tiket";
+echo "<chr>";
+echo "<table>";
+$Jm Pertunjukan=$_POST{'Jm Perunjukan'};
+$Kelas=$_POST{'Kelas'};
+$Jumlah=$_POST{'Jumlah'};
+if 
+

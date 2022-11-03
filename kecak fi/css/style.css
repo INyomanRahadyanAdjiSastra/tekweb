@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: montserrat;
+}
+nav{
+	background: white;
+	height: 80px;
+	width: 100%;
+}
+label.logo {
+	color: black;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: black;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a.active,a:hover{
+	background: blue;
+	transition: .5s;
+
+}
+.checkbox{
+	font-size: 30px;
+	color: black;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+
+}
+
+img {
+	width: 100%;
+}
+
+body {
+	background-color: skyblue;
+	font-size: 18px;
+	font-family: Poor Story;
+	margin: 50px;, 
+}
+
+/*header*/
+
+.header {
+	display: grid;
+	grid-template-areas: `hero hero fitur-1` `hero hero fitur-1`;
+}
+
+.hero {
+	grid-area: hero;
+	min-height: 280px;
+	background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/12/55/1a/28/img20180315184828-largejpg.jpg );
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+	margin-left: -390px;
+	margin-bottom: -610px;
+}
+.hiro {
+	margin-left: 790px;
+
+}
+.hiroo {
+	margin-left: 790px;
+	margin-bottom: 200px;
+}
+.hero > * {
+	color: white;
+}
+.mar {
+	margin-bottom: 300px;
+	color: black;
+}
